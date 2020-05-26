@@ -16,7 +16,7 @@ role: Junior Student
 organizations:
 - name: Zhejiang University
   url: "http://www.zju.edu.cn/english/"
-  email: "zjucse_fj@zju.edu.cn"
+- email: zjucse_fj@zju.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
