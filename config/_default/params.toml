@@ -86,7 +86,7 @@ phone = "+86 18888920681"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "38 Zheda Road", city = "Hangzhou", region = "Xihu", postcode = "310058", country = "China", country_code = "CN"}
+address = {street = "38 Zheda Road", city = "Hangzhou", region = "Xihu District", postcode = "310058", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -171,7 +171,7 @@ plugins_js  = []
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = false
+  gravatar = true
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
