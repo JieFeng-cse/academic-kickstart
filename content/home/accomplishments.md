@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   title = "World Champion in P-frame Track"
   url = "http://challenge.compression.cc/leaderboard/pframe/valid/"
   certificate_url = ""
-  date_start = "2020-03-27"
+  date_start = "Mar-2020"
   date_end = ""
   description = "First place in both validation and test phase as team Tucodec, and my own solution win the thrid place in validation phase as team ZJUCSEFJ."
 
