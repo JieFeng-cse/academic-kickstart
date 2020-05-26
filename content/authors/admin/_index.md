@@ -72,7 +72,7 @@ email: "zjucse_fj@zju.edu.cn"
 # - Researchers
 # - Visitors
 ---
-My name is Jie Feng, a Junior student. I am looking forward to a PhD position enrolled in fall 2021.
+My name is Jie Feng, a Junior student. I am looking for to a PhD position enrolled in fall 2021.
 
 I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. My major is Control Science and Engineering.
 
@@ -84,7 +84,7 @@ To have a better understanding of cutting-edge machine learning technique, I joi
 As my ontology database mentioned above doesn't have reasoning ability, I joined a research group to get more insights of graph structured data. We design coarsening and partitioning algorithms and corresponding architectures to analyse similarity between relatively big graphs, our methods showed promising results and our papers are now available in arxiv.
 <!-- better or equally good performance of existing GNN methods with improved speed. Our papers will be submitted to nips, cikm and other top conferences.  -->
 
-In the summer, I will join UCB MSC Lab to do some research focusing on automous driving as a research intern.
+In this summer, I will join UCB MSC Lab to do some research focusing on automous driving as a research intern.
 
 
 
