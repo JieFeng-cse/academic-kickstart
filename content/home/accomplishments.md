@@ -38,5 +38,4 @@ date_format = "Jan 2006"
   date_end = ""
   description = "First place in both validation and test phase as team Tucodec, and my own solution win the thrid place in validation phase as team ZJUCSEFJ."
 
-
 +++
