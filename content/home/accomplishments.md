@@ -3,7 +3,7 @@
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 50  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
 subtitle = ""
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "Mar 2020"
   date_end = ""
-  description = "First place in both validation and test phase as team Tucodec-SSIM, and my own solution win the thrid place in validation phase as team ZJUCSEFJ."
+  description = "First place in both validation and test phase as team Tucodec, and my own solution win the thrid place in validation phase as team ZJUCSEFJ."
 
   [[item]]
   organization = "Zhejiang University"
@@ -45,6 +45,6 @@ date_format = "Jan 2006"
   url = "http://challenge.compression.cc/leaderboard/pframe/valid/"
   certificate_url = ""
   date_start = "Oct 2018"
-  date_end = "Now"
-  description = "Only 60 undergrads in our university can win this scholarship every year."
+  date_end = ""
+  description = "First place in both validation and test phase as team Tucodec, and my own solution win the thrid place in validation phase as team ZJUCSEFJ."
 +++
