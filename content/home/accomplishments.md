@@ -46,6 +46,6 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-10-01"
   date_end = "2020-09-01"
-  description = "Only 60 undergrads in our university can win this scholarship every year."
+  description = "Only 30 undergrads in our university can win this scholarship every year."
 
 +++
