@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Junior Student
+role: Senior Student
 
 # Organizations/Affiliations
 organizations:
@@ -72,7 +72,7 @@ email: "zjucse_fj@zju.edu.cn"
 # - Researchers
 # - Visitors
 ---
-My name is Jie Feng, a Junior student. I am looking for a PhD position enrolled in fall 2021.
+My name is Jie Feng, a senior undergraduate student. I am looking for a PhD position enrolled in fall 2021.
 
 I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. My major is Control Science and Engineering.
 
