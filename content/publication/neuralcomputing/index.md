@@ -32,7 +32,7 @@ url_pdf: https://arxiv.org/pdf/2005.08008.pdf
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**ICFNDS**](http://www.icfnds.org/)'
+  caption: 'Graph partition network'
   focal_point: ""
   preview_only: false
 
