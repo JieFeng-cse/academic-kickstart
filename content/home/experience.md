@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 
   *  Participated in the CVPR CLIC 2020. Our framework achieve the highest MS-SSIM performance for P-frame task in both validation phase and test phase
 """
-  
+
 [[experience]]
   title = "Research Assistant"
   company = "University of California, Berkeley"
@@ -45,6 +45,21 @@ date_format = "Jan 2006"
 
   *  Reproduced Vector net and tested its performance under different levels of uncertainty.
   
+    """
+
+[[experience]]
+  title = "Research Assistant"
+  company = "University of Texas at Austin"
+  company_url = ""
+  location = "Supervised by Prof. Yuke Zhu"
+  date_start = "2020-11-04"
+  date_end = "2021-06-01"
+  description = """
+
+  * Design a benchmark for grasping deformable objects
+
+  * A systematical project starts from Mujoco engine, finish graphics work and then benchmarking main-stream robot learning methods. 
+
     """
 
 +++
