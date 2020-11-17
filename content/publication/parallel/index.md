@@ -1,5 +1,5 @@
 ---
-title: "Multivariate Time Series Forecasting with Transfer Entropy Graph"
+title: "Parallel Extraction of Long-term Trends and Short-term Fluctuation Framework for Multivariate Time Series Forecasting"
 authors: [Haoyan Xu, Ziheng Duan, Yida Huang, Jie Feng, Anni Ren, Qianru Zhang, Pengyu Song, Xiaoqian Wang]
 date: "2020-09-07T00:00:00Z"
 
