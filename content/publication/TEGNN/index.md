@@ -20,7 +20,7 @@ abstract: Multivariate time series (MTS) forecasting is an important problem in 
 
 tags:
 - Source Themes
-featured: true
+featured: false
 profile: false
 share: false
 
