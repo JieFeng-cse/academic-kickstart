@@ -1,11 +1,11 @@
 +++
 
-title = "Optimal spatio-temporal scheduling for Electric Vehicles and Load Aggregators considering response reliability"
-date = 2018-01-01T00:00:00
+title = "End-to-end Optimized Video Compression with MV-Residual Prediction"
+date = 28 July 2020
 draft = false
 
 # Authors. Comma separated list, e.g. ["Bob Smith", "David Jones"].
-authors = ["Chunyan Li","Rongsheng Zhao","Dong Wang","Wenyue Cai","Changqing Yu","Yingzhong Gu","Qian Zhang"]
+authors = ["XiangJi Wu","Ziwen Zhang","Jie Feng","Lei Zhou","Junmin Wu"]
 
 # Publication type.
 # Legend:
@@ -16,16 +16,14 @@ authors = ["Chunyan Li","Rongsheng Zhao","Dong Wang","Wenyue Cai","Changqing Yu"
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["2"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "*IEEE Transactions on Power Systems*, Volume: 29 , Issue: 1 , Jan. 2014."
-publication_short = "*IEEE Transactions on Power Systems*, Volume: 29 , Issue: 1 , Jan. 2014."
+publication = "[2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)](https://ieeexplore.ieee.org/xpl/conhome/9142289/proceeding)"
+publication_short = "CVPRW 2020"
 
 # Abstract and optional shortened version.
-abstract = "The increasing power in the demand side, the large-scale Electric Vehicles’ (EVs) randomness in charging/discharging modes and uncertainty in demand response are posing a threat to the stable operation and security of power systems. A spatio-temporal bi-layers scheduling model for EVs and Load Aggregators (LAs) considering response reliability is proposed in the paper. In the upper layer, the indices of charging urgency and discharging adequacy are established to describe the controllability of EVs. Further, the EVs are sequenced, and the upper and lower boundaries of controllable power domain are determined. Then, the optimal nodal schedulable load is obtained through an improved optimal power flow model considering the spatial characteristics. In the lower layer, pricing strategies for charging/discharging considering the response reliability of LAs and EVs are developed, and the optimal scheduling strategies are built. Finally, the effectiveness of the proposed model is verified through a modified IEEE 33 system, in addition, impacts of response reliability on the energy allocation and economic benefits are analyzed in the case study."
-
-abstract_short = "The increasing power in the demand side, the large-scale Electric Vehicles’ (EVs) randomness in charging/discharging modes and uncertainty in demand response are posing a threat to the stable operation and security of power systems. A spatio-temporal bi-layers scheduling model for EVs and Load Aggregators (LAs) considering response reliability is proposed in the paper. In the upper layer, the indices of charging urgency and discharging adequacy are established to describe the controllability of EVs. Further, the EVs are sequenced, and the upper and lower boundaries of controllable power domain are determined. Then, the optimal nodal schedulable load is obtained through an improved optimal power flow model considering the spatial characteristics. In the lower layer, pricing strategies for charging/discharging considering the response reliability of LAs and EVs are developed, and the optimal scheduling strategies are built. Finally, the effectiveness of the proposed model is verified through a modified IEEE 33 system, in addition, impacts of response reliability on the energy allocation and economic benefits are analyzed in the case study."
+abstract = "We present an end-to-end trainable framework for P-frame compression in this paper. A joint motion vector (MV) and residual prediction network MV-Residual is designed to extract the ensembled features of motion representations and residual information by treating the two successive frames as inputs. The prior probability of the latent representations is modeled by a hyperprior autoencoder and trained jointly with the MV-Residual network. Specially, the spatially-displaced convolution is applied for video frame prediction, in which a motion kernel for each pixel is learned to generate predicted pixel by applying the kernel at a displaced location in the source image. Finally, novel rate allocation and post-processing strategies are used to produce the final compressed bits, considering the bits constraint of the challenge. The experimental results on validation set show that the proposed optimized framework can generate the highest MS-SSIM for P-frame compression competition."
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -40,11 +38,11 @@ slides = ""
 tags = []
 
 # Links (optional).
-url_pdf = "https://www.sciencedirect.com/science/article/abs/pii/S0378779618301378"
+url_pdf = "https://ieeexplore.ieee.org/abstract/document/9150939"
 
 
 
-doi = "10.1016/j.epsr.2018.05.007"
+doi = "[10.1109/CVPRW50498.2020.00086](https://doi.org/10.1109/CVPRW50498.2020.00086)"
 
 # Does this page contain LaTeX math? (true/false)
 math = true
