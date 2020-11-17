@@ -19,16 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Research Intern"
-  company = "Tucodec"
-  company_url = ""
+  company = "TuCodec"
+  company_url = "https://www.tucodec.com/"
   location = "Shanghai"
   date_start = "2020-01-14"
   date_end = "2020-06-14"
   description = """
   Responsibilities include:
+  * Participated in CVPR Challenge on Learned Image Compression 2020, video compression track, as one of three core researchers
+  * Track new papers and reproduce the code
+[[experience]]
+  title = "Research Assistant"
+  company = "University of California, Berkeley"
+  company_url = ""
+  location = "remote"
+  date_start = "2020-07-04"
+  date_end = "2020-12-01"
+  *  Proposed a novel GNN architecture which incorporates attention mechanism based on agents' distance and speeds. This framework could model interaction between road agents and update features
+  *  Implemented ODE-net for trajectory fitting, which could learn better sequential information and generate robust and differentiable results
+  *  Reproduced Vector net and tested its performance under different levels of uncertainty.
   
-  * Data processing
-  * Modelling
-  """
+    """
 
 +++
