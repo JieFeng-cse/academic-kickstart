@@ -1,7 +1,7 @@
 ---
 title: "Graph Partitioning and Graph Neural Network based Hierarchical Graph Matching for Graph Similarity Computation"
 authors: ["Jie Feng*","Haoyan Xu*", "Ziheng Duan*", "Runjian Chen", "Qianru Zhang", "Yueyang Wang"]
-date: "preprint"
+date: "2020-09-11T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "preprint"
