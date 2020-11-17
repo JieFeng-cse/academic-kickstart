@@ -58,7 +58,7 @@ date_format = "Jan 2006"
 
   * Design a benchmark for grasping deformable objects
 
-  * A systematical project starts from Mujoco engine, finish graphics work and then benchmarking main-stream robot learning methods. 
+  * A systematical project starts from Mujoco engine. I will finish graphics work and then benchmark main-stream robot learning methods. 
 
     """
 
