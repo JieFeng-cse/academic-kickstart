@@ -72,19 +72,23 @@ email: "zjucse_fj@zju.edu.cn"
 # - Researchers
 # - Visitors
 ---
-My name is Jie Feng, a senior undergraduate student. I am looking for a PhD position enrolled in fall 2021.
+Hi, I am Jie Feng, a senior undergraduate student in Zhejiang University.
 
-I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. My major is Control Science and Engineering.
+I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. My major is Control Science and Engineering and I am advised by Prof. [Rong Xiong](https://person.zju.edu.cn/en/rongxiong#776514). I am also a research assistant in [MSC lab](https://msc.berkeley.edu/), working closely to Prof. [Tumizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/), Post Doc. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en) and Post Doc. [Liting Sun](https://scholar.google.com/citations?hl=en&user=BitIg-YAAAAJ&view_op=list_works&sortby=pubdate). Previously, I worked as a research intern at [Tucodec](https://www.tucodec.com/) and won CVPR CLIC 2020 championship in P-frame track.
 
-My research interests lie in robotics, computer vision and optimization. My ambition is to develop intelligence for robot that can learn with little supervision. And I did a lot to chase my goal. My first scientific project is Multi-information Fusion Ontology For Robot Autonomous Programming.  
+I am looking for a PhD position enrolled in fall 2021, you can find my CV in the left.
 
-To have a better understanding of cutting-edge machine learning technique, I joined Tucodec as a reseach intern. My main contribution are the post-processing model optimization and data processing. We are the champion of CVPR CLIC2020 P-frame task.
-<!-- I also tried several warping methods to boost our performance. In the end, our solution showed promising results and we won the challenge. I wrote the paper and as champion we get the oral oppotunity. -->
+Research Interests:
 
-As my ontology database mentioned above doesn't have reasoning ability, I joined a research group to get more insights of graph structured data. We design coarsening and partitioning algorithms and corresponding architectures to analyse similarity between relatively big graphs, our methods showed promising results and our papers are now available in arxiv.
-<!-- better or equally good performance of existing GNN methods with improved speed. Our papers will be submitted to nips, cikm and other top conferences.  -->
+* Unsupervised or semi-supervised robot learning methods
+* Interpretable models, especially for planning
+* Representation learning, Graph Neural Networks
 
-In this summer, I will join UCB MSC Lab to do some research focusing on automous driving as a research intern.
+
+
+ 
+
+
 
 
 
