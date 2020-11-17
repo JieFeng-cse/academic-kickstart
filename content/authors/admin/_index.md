@@ -19,13 +19,7 @@ organizations:
 - email: zjucse_fj@zju.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
-- Artificial Intelligence
-- Data science
-- Computer Vision
-- Robotics
 
 
 education:
@@ -80,7 +74,7 @@ I am looking for a PhD position enrolled in fall 2021, you can find my CV on the
 
 Research Interests:
 
-* Unsupervised or semi-supervised robot learning methods
+* 
 * Interpretable models, especially for planning
 * Representation learning, Graph Neural Networks
 
