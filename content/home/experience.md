@@ -26,8 +26,8 @@ date_format = "Jan 2006"
   date_end = "2020-06-14"
   description = """
   Responsibilities include:
-  * Participated in CVPR Challenge on Learned Image Compression 2020, video compression track, as one of three core researchers
-  * Track new papers and reproduce the code
+  * Designed a novel end-to-end video compression framework with joint motion vector and residual prediction for P-frame tasks, and the prior probability of the representations are modeled by a hyperprior autoencoder
+  *  Participated in the CVPR CLIC 2020. Our framework achieve the highest MS-SSIM performance for P-frame task in both validation phase and test phase
 [[experience]]
   title = "Research Assistant"
   company = "University of California, Berkeley"
