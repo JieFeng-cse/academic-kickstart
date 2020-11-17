@@ -70,7 +70,7 @@ My major is Control Science and Engineering and I am advised by Prof. [Rong Xion
 
 In the next few months, I am fortune to have the opportunity to work closely with Prof. [Yuke Zhu](https://www.cs.utexas.edu/~yukez/). 
 
-I am looking for a PhD position enrolled in fall 2021, and my CV is on the left.
+I am looking for a PhD position enrolled in fall 2021, and my CV is on the left. I am actively seeking for collaborations and opportunities. Feel to reach out if you are interested in my research.
 
 Research Interests:
 
