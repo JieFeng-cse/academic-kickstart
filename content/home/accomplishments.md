@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   date_start = "2019-12-01"
   date_end = "2020-03-01"
   description = "Our company's solution won the best MS-SSIM as team TUCODEC_SSIM in both Validation and Test phase. My own solution as Team ZJUCSEFJ won the third place in validation phase."
-  
+
 [[item]]
   organization = "Zhejiang University"
   organization_url = ""
@@ -47,5 +47,15 @@ date_format = "Jan 2006"
   date_start = "2017-10-01"
   date_end = "2020-09-01"
   description = "Only 30 undergrads in our university can win this scholarship every year."
+
+[[item]]
+  organization = "Zhejiang University"
+  organization_url = ""
+  title = "First-class Scholarship for Academic Excellence"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-09-01"
+  date_end = "2020-10-01"
+  description = "Top 3% students"
 
 +++

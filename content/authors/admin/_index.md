@@ -25,7 +25,7 @@ education:
   #   year: 2012
   - course: Research Assistant, advised by Prof. Tomizuka 
     institution: University of California, Berkeley
-    year: 2020-
+    year: 2020
   - course: BSc in Control Science and Engineering, advised by Prof. Rong Xiong
     institution: Zhejiang University
     year: 2017-2021
@@ -68,7 +68,9 @@ I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang Univer
 
 My major is Control Science and Engineering and I am advised by Prof. [Rong Xiong](https://person.zju.edu.cn/en/rongxiong#776514). I am also a research assistant in [MSC lab](https://msc.berkeley.edu/), working closely to Prof. [Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/), Post Doc. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en) and Post Doc. [Liting Sun](https://scholar.google.com/citations?hl=en&user=BitIg-YAAAAJ&view_op=list_works&sortby=pubdate). Previously, I worked as a research intern at [Tucodec](https://www.tucodec.com/) and won CVPR CLIC 2020 championship in P-frame track.
 
-I am looking for a PhD position enrolled in fall 2021, you can find my CV on the left.
+In the next few months, I am fortune to have the opportunity to work closely with Prof. [Yuke Zhu](https://www.cs.utexas.edu/~yukez/). 
+
+I am looking for a PhD position enrolled in fall 2021, and my CV is on the left.
 
 Research Interests:
 
