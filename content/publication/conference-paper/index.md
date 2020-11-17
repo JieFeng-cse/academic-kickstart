@@ -1,6 +1,6 @@
 ---
 title: "Hierarchical Large-scale Graph Similarity Computation via Graph Coarsening and Matching"
-authors=["Haoyan Xu", "Runjian Chen", "Yunsheng Bai", "Ziheng Duan", "Jie Feng", "Ke Luo", "Yizhou Sun", "Wei Wang"]
+authors: ["Haoyan Xu", "Runjian Chen", "Yunsheng Bai", "Ziheng Duan", "Jie Feng", "Ke Luo", "Yizhou Sun", "Wei Wang"]
 date: "2020-09-15"
 
 # Schedule page publish date (NOT publication's date).
