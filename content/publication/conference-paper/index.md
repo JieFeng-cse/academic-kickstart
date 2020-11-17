@@ -32,7 +32,7 @@ url_pdf: https://arxiv.org/pdf/2005.07115.pdf
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**ICFNDS**](http://www.icfnds.org/)'
+  caption: 'CosimGNN'
   focal_point: ""
   preview_only: false
 
