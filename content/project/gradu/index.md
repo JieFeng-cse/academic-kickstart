@@ -1,6 +1,5 @@
 ---
 title: Benchmarking Deformable Objects Manipulation with Robosuite
-
 tags:
 - Robotics Simulation, Robot Learning
 date: "2020-11-10T00:00:00Z"
