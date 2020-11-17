@@ -1,10 +1,7 @@
 ---
-title: "Cloud Computing With Kubernetes Cluster Elastic Scaling"
-authors:
-- admin
-- Ruth G. Lennon
-date: "2019-07-01T00:00:00Z"
-doi: "10.1145/3341325.3341995"
+title: "Hierarchical Large-scale Graph Similarity Computation via Graph Coarsening and Matching"
+authors=["Haoyan Xu", "Runjian Chen", "Yunsheng Bai", "Ziheng Duan", "Jie Feng", "Ke Luo", "Yizhou Sun", "Wei Wang"]
+date: "2020-09-15"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-07-01T00:00:00Z"
@@ -16,24 +13,21 @@ publishDate: "2019-07-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ICFNDS 2019*
-publication_short: In *ICFNDS 2019*
+publication: Submitted to AAAI 2021
 
-abstract: Cloud computing and artificial intelligence (AI) technologies are becoming increasingly prevalent in the industry, necessitating the requirement for advanced platforms to support their workloads through parallel and distributed architectures. Kubernetes provides an ideal platform for hosting various workloads, including dynamic workloads based on AI applications that support ubiquitous computing devices leveraging parallel and distributed architectures. The rationale is that Kubernetes can be used to support backend services running on parallel and distributed architectures, hosting ubiquitous cloud computing workloads. These applications support smart homes and concerts, providing an environment that automatically scales based on demand. While Kubernetes does offer support for auto scaling of Pods to support these workloads, automated scaling of the cluster itself is not currently offered. In this paper we introduce a Free and Open Source Software (FOSS) solution for autoscaling Kubernetes (K8s) worker nodes within a cluster to support dynamic workloads. We go on to discuss scalability issues and security concerns both on the platform and within the hosted AI applications.
-
+abstract: In this work, we focus on large graph similarity computation problem and propose a novel "embedding-coarsening-matching" learning framework, which outperforms state-of-the-art methods in this task and has significant improvement in time efficiency. Graph similarity computation for metrics such as Graph Edit Distance (GED) is typically NP-hard, and existing heuristics-based algorithms usually achieves a unsatisfactory trade-off between accuracy and efficiency. Recently the development of deep learning techniques provides a promising solution for this problem by a data-driven approach which trains a network to encode graphs to their own feature vectors and computes similarity based on feature vectors. These deep-learning methods can be classified to two categories, embedding models and matching models. Embedding models such as GCN-Mean and GCN-Max, which directly map graphs to respective feature vectors, run faster but the performance is usually poor due to the lack of interactions across graphs. Matching models such as GMN, whose encoding process involves interaction across the two graphs, are more accurate but interaction between whole graphs brings a significant increase in time consumption (at least quadratic time complexity over number of nodes). Inspired by large biological molecular identification where the whole molecular is first mapped to functional groups and then identified based on these functional groups, our "embedding-coarsening-matching" learning framework first embeds and coarsens large graphs to coarsened graphs with denser local topology and then matching mechanism is deployed on the coarsened graphs for the final similarity scores. Detailed experiments have been conducted and the results demonstrate the efficiency and effectiveness of our proposed framework.
 # Summary. An optional shortened abstract.
-summary: In this paper we introduce a Free and Open Source Software (FOSS) solution for autoscaling Kubernetes (K8s) worker nodes within a cluster to support dynamic workloads. We go on to discuss scalability issues and security concerns both on the platform and within the hosted AI applications.
 
 tags:
 - Source Themes
-featured: true
+featured: false
 profile: false
 share: false
 
 links:
 - name: Custom Link
-  url: https://doi.org/10.1145/3341325.3341995
-url_pdf: https://brandonthurgood.io/icfnds2019.pdf
+  url: https://arxiv.org/abs/2005.07115
+url_pdf: https://arxiv.org/pdf/2005.07115.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
