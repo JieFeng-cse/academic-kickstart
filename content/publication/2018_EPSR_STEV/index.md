@@ -1,7 +1,7 @@
 +++
 
 title = "End-to-end Optimized Video Compression with MV-Residual Prediction"
-date = "28-July-2020"
+date = "2020-7-28"
 draft = false
 
 # Authors. Comma separated list, e.g. ["Bob Smith", "David Jones"].
