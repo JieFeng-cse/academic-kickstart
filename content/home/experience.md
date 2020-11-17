@@ -27,7 +27,10 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   * Designed a novel end-to-end video compression framework with joint motion vector and residual prediction for P-frame tasks, and the prior probability of the representations are modeled by a hyperprior autoencoder
+
   *  Participated in the CVPR CLIC 2020. Our framework achieve the highest MS-SSIM performance for P-frame task in both validation phase and test phase
+"""
+  
 [[experience]]
   title = "Research Assistant"
   company = "University of California, Berkeley"
@@ -35,8 +38,11 @@ date_format = "Jan 2006"
   location = "remote"
   date_start = "2020-07-04"
   date_end = "2020-12-01"
-  *  Proposed a novel GNN architecture which incorporates attention mechanism based on agents' distance and speeds. This framework could model interaction between road agents and update features
-  *  Implemented ODE-net for trajectory fitting, which could learn better sequential information and generate robust and differentiable results
+  description = """
+  * Proposed a novel GNN architecture which incorporates attention mechanism based on agents' distance and speeds. This framework could model interaction between road agents and update features
+
+  * Implemented ODE-net for trajectory fitting, which could learn better sequential information and generate robust and differentiable results
+
   *  Reproduced Vector net and tested its performance under different levels of uncertainty.
   
     """
