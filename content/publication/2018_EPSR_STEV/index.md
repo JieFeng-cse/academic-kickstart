@@ -1,7 +1,7 @@
 +++
 
 title = "End-to-end Optimized Video Compression with MV-Residual Prediction"
-date = 28 July 2020
+date = 28.July.2020
 draft = false
 
 # Authors. Comma separated list, e.g. ["Bob Smith", "David Jones"].
@@ -19,7 +19,7 @@ authors = ["XiangJi Wu","Ziwen Zhang","Jie Feng","Lei Zhou","Junmin Wu"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "[2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)](https://ieeexplore.ieee.org/xpl/conhome/9142289/proceeding)"
+publication = "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
 publication_short = "CVPRW 2020"
 
 # Abstract and optional shortened version.
@@ -42,7 +42,7 @@ url_pdf = "https://ieeexplore.ieee.org/abstract/document/9150939"
 
 
 
-doi = "[10.1109/CVPRW50498.2020.00086](https://doi.org/10.1109/CVPRW50498.2020.00086)"
+doi = "10.1109/CVPRW50498.2020.00086"
 
 # Does this page contain LaTeX math? (true/false)
 math = true
