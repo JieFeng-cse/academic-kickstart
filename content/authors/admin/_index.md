@@ -18,18 +18,14 @@ organizations:
   url: "http://www.zju.edu.cn/english/"
 - email: zjucse_fj@zju.edu.cn
 
-# Short bio (displayed in user profile at end of posts)
-
-
-
 education:
   courses:
   # - course: PhD in Artificial Intelligence
   #   institution: Stanford University
   #   year: 2012
-  - course: Research Assistant, advised by Prof. Masayoshi Tomizuka 
+  - course: Research Assistant, advised by Prof. Tomizuka 
     institution: University of California, Berkeley
-    year: 2020
+    year: 2020-
   - course: BSc in Control Science and Engineering, advised by Prof. Rong Xiong
     institution: Zhejiang University
     year: 2017-2021
@@ -74,7 +70,7 @@ I am looking for a PhD position enrolled in fall 2021, you can find my CV on the
 
 Research Interests:
 
-* 
+* Unsupervised or semi-supervised robot learning methods
 * Interpretable models, especially for planning
 * Representation learning, Graph Neural Networks
 
