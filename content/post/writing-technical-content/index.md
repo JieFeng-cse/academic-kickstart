@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jie Feng
+title: Unofficial description of my research experience and motivation (not my PS)
 
 # Username (this should match the folder name)
 authors:
@@ -62,23 +62,7 @@ email: "zjucse_fj@zju.edu.cn"
 # - Researchers
 # - Visitors
 ---
-Hi, I am Jie Feng, a senior undergraduate student in Zhejiang University.
-
-I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. 
-
-My major is Control Science and Engineering and I am advised by Prof. [Rong Xiong](https://person.zju.edu.cn/en/rongxiong#776514). I am also a research assistant in [MSC lab](https://msc.berkeley.edu/), working closely with Prof. [Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/), Post Doc. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en) and Post Doc. [Liting Sun](https://scholar.google.com/citations?hl=en&user=BitIg-YAAAAJ&view_op=list_works&sortby=pubdate). Previously, I worked as a research intern at [Tucodec](https://www.tucodec.com/) and won CVPR CLIC 2020 championship in P-frame track.
-
-In the next few months, I am fortune to have the opportunity to work closely with Prof. [Yuke Zhu](https://www.cs.utexas.edu/~yukez/). 
-
-I am looking for a PhD position enrolled in fall 2021, and my CV is on the left. I am actively seeking for collaborations and opportunities. Feel to reach out if you are interested in my research.
-
-Research Interests:
-
-* Unsupervised or semi-supervised robot learning methods
-* Interpretable models, especially for planning
-* Representation learning, Graph Neural Networks
-
-PS: A general and unofficial description of my research experience and motivation (take it like a personal confession, if you are not interested, please skip to next section)
+If you want to know more about my motivation and my researches, you are welcome to read.
 
 I have been obsessed with robots for a long time. When I was a kid, the *Transformer* literally blew my mind. I kept wondering, how could I make one of them, like, emmm, Bumblebee?  That is my initial motivation to join the robot club in high school and to choose Robotics track in college, where I first met a PR2, several UR5 and programmed one of them to wash pots. I know that is what I am willing to pursue, even though it could be hard working with hardware.
 
