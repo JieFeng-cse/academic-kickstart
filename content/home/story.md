@@ -1,4 +1,4 @@
-```
+
 +++
 # A Recent Blog Posts section created with the Pages widget.
 # This section displays recent blog posts from `content/post/`.
@@ -67,4 +67,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-```
