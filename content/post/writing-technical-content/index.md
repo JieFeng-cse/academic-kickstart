@@ -1,7 +1,6 @@
 ---
 ​---
 title: My research experience and motivation
-date: 2020-11-20
 math: true
 diagram: true
 ​---
