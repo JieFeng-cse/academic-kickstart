@@ -18,10 +18,10 @@
   url = "#projects"
   weight = 30
 
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 40
+[[main]]
+  name = "Motivation"
+  url = "#story"
+  weight = 40
 
 #[[main]]
 #  name = "Contact"
