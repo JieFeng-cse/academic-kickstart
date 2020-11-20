@@ -1,8 +1,6 @@
 ---
 ​---
 title: My research experience and motivation
-math: true
-diagram: true
 ​---
 ---
 If you want to know more about my motivation and my researches, you are welcome to read.
