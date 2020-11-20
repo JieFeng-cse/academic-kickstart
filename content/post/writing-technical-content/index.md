@@ -1,308 +1,102 @@
 ---
-title: Writing technical content in Academic
-date: 2019-07-12
-math: true
-diagram: true
-image:
-  placement: 3
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+# Display name
+title: Jie Feng
+
+# Username (this should match the folder name)
+authors:
+- admin
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: Senior Student
+
+# Organizations/Affiliations
+organizations:
+- name: Zhejiang University
+  url: "http://www.zju.edu.cn/english/"
+- email: zjucse_fj@zju.edu.cn
+
+education:
+  courses:
+  # - course: PhD in Artificial Intelligence
+  #   institution: Stanford University
+  #   year: 2012
+  - course: Research Assistant, advised by Prof. Tomizuka 
+    institution: University of California, Berkeley
+    year: 2020
+  - course: BSc in Control Science and Engineering, advised by Prof. Rong Xiong
+    institution: Zhejiang University
+    year: 2017-2021
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+- icon: envelope
+  icon_pack: fas
+  link: "mailto:zjucse_fj@zju.edu.cn"  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/jiefengcse
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: github
+  icon_pack: fab
+  link: https://github.com/JieFeng-cse
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: "zjucse_fj@zju.edu.cn"
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+# user_groups:
+# - Researchers
+# - Visitors
 ---
+Hi, I am Jie Feng, a senior undergraduate student in Zhejiang University.
 
-Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
+I study in the Mixed Honor Class in Chu Kochen Honors College at Zhejiang University, an Honor Program for top 5% students at Zhejiang University. 
 
-**Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
+My major is Control Science and Engineering and I am advised by Prof. [Rong Xiong](https://person.zju.edu.cn/en/rongxiong#776514). I am also a research assistant in [MSC lab](https://msc.berkeley.edu/), working closely with Prof. [Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/), Post Doc. [Wei Zhan](https://scholar.google.com/citations?user=xVN3UxYAAAAJ&hl=en) and Post Doc. [Liting Sun](https://scholar.google.com/citations?hl=en&user=BitIg-YAAAAJ&view_op=list_works&sortby=pubdate). Previously, I worked as a research intern at [Tucodec](https://www.tucodec.com/) and won CVPR CLIC 2020 championship in P-frame track.
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
+In the next few months, I am fortune to have the opportunity to work closely with Prof. [Yuke Zhu](https://www.cs.utexas.edu/~yukez/). 
 
-## Examples
+I am looking for a PhD position enrolled in fall 2021, and my CV is on the left. I am actively seeking for collaborations and opportunities. Feel to reach out if you are interested in my research.
 
-### Code
+Research Interests:
 
-Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the `highlight` option in your `config/_default/params.toml` file.
+* Unsupervised or semi-supervised robot learning methods
+* Interpretable models, especially for planning
+* Representation learning, Graph Neural Networks
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+PS: A general and unofficial description of my research experience and motivation (take it like a personal confession, if you are not interested, please skip to next section)
 
-renders as
+I have been obsessed with robots for a long time. When I was a kid, the *Transformer* literally blew my mind. I kept wondering, how could I make one of them, like, emmm, Bumblebee?  That is my initial motivation to join the robot club in high school and to choose Robotics track in college, where I first met a PR2, several UR5 and programmed one of them to wash pots. I know that is what I am willing to pursue, even though it could be hard working with hardware.
 
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
+My academic research began with a robot ontology, advised by Prof. Rong Xiong, who is an eminent roboticist.  The basic idea is to build a mechanism that a robot could automatically learn knowledge from demonstration, some vocal instruments might be needed. Then the knowledge will be stored as the ontology database, which would be used in further researches to utilize those knowledge to guide manipulators to conduct a series of movement with the given high-level commands, such as make a salad. Following the intuition of [FOON](https://arxiv.org/abs/1902.01537) (an IROS 2016 paper), I designed the ontology as a graph knowledge base so that a procedure for a salad, for instance, could be represented as a sub-graph, and searching could be easy with depth-first search aided with width-first search when the database is not too large, of course, a hash-table is built and some mechanisms to avoid ambiguity.
 
-### Charts
+I was completely fascinated by the idea that robot could learn by itself, although what we built was literally a pipeline that a robot could interact with human to instore the process of making a salad, the stored information includes features extracted from pictures of recorded ingredients, optical flow extracted from the demonstration video. It was pretty cool for a second year undergraduate as my small robot could generate a feasible procedure for making a tuna salad with its "eyes" searching what are available, although it could not really do this. So after that, my curiosity just keeps pushing me, how can I make it really do it? Which led to my incoming researches.
 
-Academic supports the popular [Plotly](https://plot.ly/) chart format.
+I have two major dissatisfaction with my prior project: (1) It can not infer. For example, even though it has knowledge about how to make a chicken chop, it could not know the procedure of  making a pork chop. (2) It can not work for real manipulators. 
 
-Save your Plotly JSON in your page folder, for example `chart.json`, and then add the `{{</* chart data="chart" */>}}` shortcode where you would like the chart to appear.
+For the first problem, as my ontology database is built as a knowledge graph, it came up to me, why not try something with the Graph Neural Network? (The second reason is that I participated in our team for Robocup (ZJUNlict) for a short time and a PhD student encouraged me to use GNN to learn policies for football games, I quit because of the pandemic.) Then a senior undergraduate invited me to participate in
 
-Demo:
 
-{{< chart data="line-chart" >}}
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
-### Math
 
-Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file.
+ 
 
-To render *inline* or *block* math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
 
-Example **math block**:
 
-```latex
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-```
 
-renders as
 
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
-
-Example **multi-line math** using the `\\\\` math linebreak:
-
-```latex
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-```
-
-renders as
-
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-
-### Diagrams
-
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
-
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    <<interface>> Class01
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    class Class10 {
-      <<service>>
-      int id
-      size()
-    }
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<interface>> Class01
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-### Todo lists
-
-You can even write your todo lists in Academic too:
-
-```markdown
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-
-### Tables
-
-Represent your data in tables:
-
-```markdown
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-renders as
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Callouts
-
-Academic supports a [shortcode for callouts](https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts), also referred to as *asides*, *hints*, or *alerts*. By wrapping a paragraph in `{{%/* alert note */%}} ... {{%/* /alert */%}}`, it will render as an aside.
-
-```markdown
-{{%/* alert note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /alert */%}}
-```
-
-renders as
-
-{{% alert note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /alert %}}
-
-### Spoilers
-
-Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.
-
-```markdown
-{{</* spoiler text="Click to view the spoiler" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}
-
-### Icons
-
-Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://sourcethemes.com/academic/docs/page-builder/#icons) in addition to [emojis](https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis).
-
-Here are some examples using the `icon` shortcode to render icons:
-
-```markdown
-{{</* icon name="terminal" pack="fas" */>}} Terminal  
-{{</* icon name="python" pack="fab" */>}} Python  
-{{</* icon name="r-project" pack="fab" */>}} R
-```
-
-renders as
-
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
-{{< icon name="r-project" pack="fab" >}} R
-
-### Did you find this page helpful? Consider sharing it 🙌
