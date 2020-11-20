@@ -1,7 +1,7 @@
 ---
 title: My research experience and motivation
 ---
-If you want to know more about my motivation and my researches, you are welcome to read. This blog is written in a casual style, and it will explain why I conducted the before mentioned researches as well as my motivation.
+If you want to know more about my motivation and my researches, you are welcome to read. This blog is written in a casual style, and it will explain why I conducted the abovementioned researches as well as my motivation.
 
 I have been obsessed with robots for a long time. When I was a kid, the *Transformer* literally blew my mind. I kept wondering, how could I make one of them, like, emmm, Bumblebee?  That is my initial motivation to join the robot club in high school and to choose Robotics track in college, where I first met a PR2, several UR5 and programmed one of them to wash pots. I know that is what I am willing to pursue, even though it could be hard working with hardware.
 
